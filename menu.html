@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .menu-column {
+            width: 45%;
+            margin: 0 10px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .menu-section h3 {
+            color: #444;
+            margin-top: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .menu-item span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .menu-description {
+            margin-left: 15px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu-container">
+        <div class="menu-column">
+            <h2>Menu</h2>
+
+            <!-- Chicken Section -->
+            <div class="menu-section">
+                <h3>Chicken</h3>
+                <div class="menu-item">
+                    <span>Grilled Chicken</span>
+                    <span>£10</span>
+                </div>
+                <div class="menu-item">
+                    <span>Half Grilled Chicken</span>
+                    <span>£6</span>
+                </div>
+                <div class="menu-item">
+                    <span>Broasted Chicken</span>
+                    <span>£14</span>
+                </div>
+                <div class="menu-item">
+                    <span>Half Broasted Chicken</span>
+                    <span>£8</span>
+                </div>
+            </div>
+
+            <!-- Meals Section -->
+            <div class="menu-section">
+                <h3>Meals</h3>
+                <div class="menu-item">
+                    <span>Shawarma Arabi</span>
+                    <span>£7</span>
+                </div>
+                <div class="menu-item">
+                    <span>Falafel Arabi</span>
+                </div>
+                <div class="menu-item">
+                    <span>Crispy Meal</span>
+                </div>
+                <div class="menu-item">
+                    <span>Double Shawarma Arabi</span>
+                </div>
+                <div class="menu-item">
+                    <span>Triple Shawarma Meal</span>
+                </div>
+                <div class="menu-item">
+                    <span>Family Shawarma Meal</span>
+                </div>
+                <div class="menu-item">
+                    <span>Drumstick Meal</span>
+                </div>
+            </div>
+
+            <!-- Bakery Section -->
+            <div class="menu-section">
+                <h3>Bakery</h3>
+                <div class="menu-item">
+                    <span>Cheese</span>
+                    <span>£2.50</span>
+                </div>
+                <div class="menu-item">
+                    <span>Zaatar</span>
+                    <span>£2</span>
+                </div>
+                <div class="menu-item">
+                    <span>Mohamara</span>
+                    <span>£3</span>
+                </div>
+                <div class="menu-item">
+                    <span>Olives</span>
+                    <span>£3</span>
+                </div>
+                <div class="menu-item">
+                    <span>Meat</span>
+                    <span>£2.50</span>
+                </div>
+                <div class="menu-item">
+                    <span>Sujuk</span>
+                    <span>£2.50</span>
+                </div>
+                <div class="menu-item">
+                    <span>Spinach</span>
+                    <span>£2.50</span>
+                </div>
+                <div class="menu-item">
+                    <span>Mortadella</span>
+                    <span>£2.50</span>
+                </div>
+                <div class="menu-item">
+                    <span>Meat & Mohamara with Cheese</span>
+                </div>
+                <div class="menu-item">
+                    <span>Meat & Mohamara with Mortadella</span>
+                </div>
+                <div class="menu-item">
+                    <span>Pepperoni & Cheese</span>
+                </div>
+                <div class="menu-item">
+                    <span>Shawarma</span>
+                </div>
+                <div class="menu-item">
+                    <span>Sanfora</span>
+                </div>
+                <div class="menu-item">
+                    <span>Labneh & Zaatar</span>
+                </div>
+                <div class="menu-item">
+                    <span>Eggs & Cheese</span>
+                </div>
+            </div>
+
+            <!-- Shawarma Section -->
+            <div class="menu-section">
+                <h3>Shawarma</h3>
+                <div class="menu-item">
+                    <span>Small Shawarma Portion</span>
+                    <span>£5</span>
+                </div>
+                <div class="menu-item">
+                    <span>Large Shawarma Portion</span>
+                    <span>£12.50</span>
+                </div>
+                <div class="menu-item">
+                    <span>Shawarma Fostok Ha Lab</span>
+                    <span>£7</span>
+                </div>
+                <div class="menu-item">
+                    <span>Shawarma Fateh</span>
+                    <span>£5</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-column">
+
+            <!-- Sides Section -->
+            <div class="menu-section">
+                <h3>Sides</h3>
+                <div class="menu-item">
+                    <span>Hummus</span>
+                    <span>£3</span>
+                </div>
+                <div class="menu-item">
+                    <span>Baba Ghanoush</span>
+                    <span>£3</span>
+                </div>
+                <div class="menu-item">
+                    <span>Rice</span>
+                    <span>£3</span>
+                </div>
+                <div class="menu-item">
+                    <span>Chips</span>
+                    <span>£3</span>
+                </div>
+                <div class="menu-item">
+                    <span>Kebah</span>
+                    <span>£1.50</span>
+                </div>
+                <div class="menu-item">
+                    <span>Chicken Nuggets</span>
+                    <span>£4</span>
+                </div>
+                <div class="menu-item">
+                    <span>Mini Fatyers</span>
+                    <span>£1</span>
+                </div>
+            </div>
+
+            <!-- Sandwiches Section -->
+            <div class="menu-section">
+                <h3>Sandwiches/Wraps</h3>
+                <div class="menu-item">
+                    <span>Falafel Wrap</span>
+                </div>
+                <div class="menu-item">
+                    <span>Haloumi Falafel Wrap</span>
+                </div>
+                <div class="menu-item">
+                    <span>Shawarma Wrap</span>
+                </div>
+                <div class="menu-item">
+                    <span>Double Shawarma Wrap</span>
+                </div>
+                <div class="menu-item">
+                    <span>Magali Wrap</span>
+                </div>
+                <div class="menu-item">
+                    <span>Crispy Wrap</span>
+                </div>
+                <div class="menu-item">
+                    <span>Chips Wrap</span>
+                </div>
+                <div class="menu-item">
+                    <span>Haloumi Wrap</span>
+                </div>
+                <div class="menu-item">
+                    <span>Sujuk Wrap</span>
+                </div>
+            </div>
+
+            <!-- Pizza Section -->
+            <div class="menu-section">
+                <h3>Pizza</h3>
+                <div class="menu-item">
+                    <span>Margarita Pizza</span>
+                    <span>£3</span>
+                </div>
+                <div class="menu-item">
+                    <span>Veggie Pizza</span>
+                    <span>£3.50</span>
+                </div>
+                <div class="menu-item">
+                    <span>Pepperoni Pizza</span>
+                    <span>£4.50</span>
+                </div>
+                <div class="menu-item">
+                    <span>Shawarma Pizza</span>
+                    <span>£5</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
